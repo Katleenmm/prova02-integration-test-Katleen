@@ -1,0 +1,382 @@
+﻿
+> integration-tests-jest@1.0.0 test
+> jest --config ./jest.config.js
+
+npm : PASS test/deck_of_cards.spec.ts
+No linha:1 caractere:106
++ ... \PROVA TESTES AUTOMACAO\integration-test-jest"; npm test 2>&1 | Out-F ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (PASS test/deck_of_cards.spec.ts:S 
+   tring) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  Deck of cards
+    DECK
+      ÔêÜ New Deck (730 ms)
+      ÔêÜ Shuffle Deck (173 ms)
+
+[[33mW[39m]   console.warn
+    Request
+
+      at node_modules/pactum/src/adapters/logger.js:21:24
+          at Array.forEach (<anonymous>)
+
+  console.warn
+    {
+      "url": "https://restful-booker.herokuapp.com/booking",
+      "method": "POST",
+      "path": "/booking",
+      "body": {
+        "firstname": "Joao",
+        "lastname": "Silva",
+        "totalprice": 100,
+        "depositpaid": true,
+        "bookingdates": {
+          "checkin": "2024-01-01",
+          "checkout": "2024-01-05"
+        },
+        "additionalneeds": "Breakfast"
+      },
+      "timeout": 3000
+    }
+
+      at node_modules/pactum/src/adapters/logger.js:21:24
+          at Array.forEach (<anonymous>)
+
+[[33mW[39m]   console.warn
+    Response
+
+      at node_modules/pactum/src/adapters/logger.js:21:24
+          at Array.forEach (<anonymous>)
+
+  console.warn
+    {
+      "statusCode": 418,
+      "headers": {
+        "content-length": "12",
+        "content-type": "text/plain; charset=utf-8",
+        "date": "Mon, 13 Apr 2026 21:15:44 GMT",
+        "etag": "W/\"c-2UDTmC4hdG5PUA+z8oDkrgejuV8\"",
+        "nel": "{\"report_to\":\"heroku-nel\",\"response_headers\":[\"Via\"],\"max_age\":3600,\"success_fraction\":0.01,\"failure_fraction\":0.1}",
+        "report-to": "{\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=QRjAwLJxpwOZ8tOd3NZqCJm9whpwXcotu34o6qKuYQ4%3D\\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\\u0026ts=1776114944\"}],\"max_age\":3600}",
+        "reporting-endpoints": "heroku-nel=\"https://nel.heroku.com/reports?s=QRjAwLJxpwOZ8tOd3NZqCJm9whpwXcotu34o6qKuYQ4%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1776114944\"",
+        "server": "Heroku",
+        "via": "1.1 heroku-router",
+        "x-powered-by": "Express"
+      },
+      "body": "I'm a Teapot"
+    }
+
+      at node_modules/pactum/src/adapters/logger.js:21:24
+          at Array.forEach (<anonymous>)
+
+[[33mW[39m]   console.warn
+    Request
+
+      at node_modules/pactum/src/adapters/logger.js:21:24
+          at Array.forEach (<anonymous>)
+
+  console.warn
+    {
+      "url": "https://restful-booker.herokuapp.com/booking/undefined",
+      "method": "GET",
+      "path": "/booking/undefined",
+      "timeout": 3000
+    }
+
+      at node_modules/pactum/src/adapters/logger.js:21:24
+          at Array.forEach (<anonymous>)
+
+[[33mW[39m]   console.warn
+    Response
+
+      at node_modules/pactum/src/adapters/logger.js:21:24
+          at Array.forEach (<anonymous>)
+
+  console.warn
+    {
+      "statusCode": 404,
+      "headers": {
+        "content-length": "9",
+        "content-type": "text/plain; charset=utf-8",
+        "date": "Mon, 13 Apr 2026 21:15:44 GMT",
+        "etag": "W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"",
+        "nel": "{\"report_to\":\"heroku-nel\",\"response_headers\":[\"Via\"],\"max_age\":3600,\"success_fraction\":0.01,\"failure_fraction\":0.1}",
+        "report-to": "{\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=QRjAwLJxpwOZ8tOd3NZqCJm9whpwXcotu34o6qKuYQ4%3D\\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\\u0026ts=1776114944\"}],\"max_age\":3600}",
+        "reporting-endpoints": "heroku-nel=\"https://nel.heroku.com/reports?s=QRjAwLJxpwOZ8tOd3NZqCJm9whpwXcotu34o6qKuYQ4%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1776114944\"",
+        "server": "Heroku",
+        "via": "1.1 heroku-router",
+        "x-powered-by": "Express"
+      },
+      "body": "Not Found"
+    }
+
+      at node_modules/pactum/src/adapters/logger.js:21:24
+          at Array.forEach (<anonymous>)
+
+[[33mW[39m]   console.warn
+    Request
+
+      at node_modules/pactum/src/adapters/logger.js:21:24
+          at Array.forEach (<anonymous>)
+
+  console.warn
+    {
+      "url": "https://restful-booker.herokuapp.com/booking/undefined",
+      "method": "PUT",
+      "headers": {
+        "Cookie": "token=83c58a678110da0"
+      },
+      "path": "/booking/undefined",
+      "body": {
+        "firstname": "Maria",
+        "lastname": "Silva",
+        "totalprice": 200,
+        "depositpaid": false,
+        "bookingdates": {
+          "checkin": "2024-02-01",
+          "checkout": "2024-02-05"
+        },
+        "additionalneeds": "Lunch"
+      },
+      "timeout": 3000
+    }
+
+      at node_modules/pactum/src/adapters/logger.js:21:24
+          at Array.forEach (<anonymous>)
+
+[[33mW[39m]   console.warn
+    Response
+
+      at node_modules/pactum/src/adapters/logger.js:21:24
+          at Array.forEach (<anonymous>)
+
+  console.warn
+    {
+      "statusCode": 405,
+      "headers": {
+        "content-length": "18",
+        "content-type": "text/plain; charset=utf-8",
+        "date": "Mon, 13 Apr 2026 21:15:45 GMT",
+        "etag": "W/\"12-UGJMK66P4abaBlq0vKHJaCKuGCA\"",
+        "nel": "{\"report_to\":\"heroku-nel\",\"response_headers\":[\"Via\"],\"max_age\":3600,\"success_fraction\":0.01,\"failure_fraction\":0.1}",
+        "report-to": "{\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=I4b7iEWxY06GScrEuFCCAOxyRauZH8z5gvaPnulvrWw%3D\\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\\u0026ts=1776114945\"}],\"max_age\":3600}",
+        "reporting-endpoints": "heroku-nel=\"https://nel.heroku.com/reports?s=I4b7iEWxY06GScrEuFCCAOxyRauZH8z5gvaPnulvrWw%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1776114945\"",
+        "server": "Heroku",
+        "via": "1.1 heroku-router",
+        "x-powered-by": "Express"
+      },
+      "body": "Method Not Allowed"
+    }
+
+      at node_modules/pactum/src/adapters/logger.js:21:24
+          at Array.forEach (<anonymous>)
+
+[[33mW[39m]   console.warn
+    Request
+
+      at node_modules/pactum/src/adapters/logger.js:21:24
+          at Array.forEach (<anonymous>)
+
+  console.warn
+    {
+      "url": "https://restful-booker.herokuapp.com/booking/undefined",
+      "method": "DELETE",
+      "headers": {
+        "Cookie": "token=83c58a678110da0"
+      },
+      "path": "/booking/undefined",
+      "timeout": 3000
+    }
+
+      at node_modules/pactum/src/adapters/logger.js:21:24
+          at Array.forEach (<anonymous>)
+
+[[33mW[39m]   console.warn
+    Response
+
+      at node_modules/pactum/src/adapters/logger.js:21:24
+          at Array.forEach (<anonymous>)
+
+  console.warn
+    {
+      "statusCode": 405,
+      "headers": {
+        "content-length": "18",
+        "content-type": "text/plain; charset=utf-8",
+        "date": "Mon, 13 Apr 2026 21:15:45 GMT",
+        "etag": "W/\"12-UGJMK66P4abaBlq0vKHJaCKuGCA\"",
+        "nel": "{\"report_to\":\"heroku-nel\",\"response_headers\":[\"Via\"],\"max_age\":3600,\"success_fraction\":0.01,\"failure_fraction\":0.1}",
+        "report-to": "{\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=I4b7iEWxY06GScrEuFCCAOxyRauZH8z5gvaPnulvrWw%3D\\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\\u0026ts=1776114945\"}],\"max_age\":3600}",
+        "reporting-endpoints": "heroku-nel=\"https://nel.heroku.com/reports?s=I4b7iEWxY06GScrEuFCCAOxyRauZH8z5gvaPnulvrWw%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1776114945\"",
+        "server": "Heroku",
+        "via": "1.1 heroku-router",
+        "x-powered-by": "Express"
+      },
+      "body": "Method Not Allowed"
+    }
+
+      at node_modules/pactum/src/adapters/logger.js:21:24
+          at Array.forEach (<anonymous>)
+
+FAIL test/rest_booking.spec.ts (5.334 s)
+  Booking Lifecycle - Pactum
+    ÔêÜ should list bookings (963 ms)
+    ÔêÜ should return 404 for invalid booking (140 ms)
+    ÔêÜ should fail to create booking with invalid data (143 ms)
+    ├ù should create booking (200 ms)
+    ├ù should validate created booking (150 ms)
+    ÔêÜ should fail auth with wrong credentials (238 ms)
+    ÔêÜ should authenticate (139 ms)
+    ÔêÜ should fail update without token (144 ms)
+    ├ù should update booking with token (155 ms)
+    ├ù should delete booking and validate (153 ms)
+
+  ÔùÅ Booking Lifecycle - Pactum ÔÇ║ should create booking
+
+    assert.strictEqual(received, expected)
+
+    Expected value to strictly be equal to:
+      200
+    Received:
+      418
+
+    Message:
+      HTTP status 418 !== 200
+
+      at Expect._validateStatus 
+(node_modules/pactum/src/models/expect.js:106:14)
+
+  ÔùÅ Booking Lifecycle - Pactum ÔÇ║ should validate created booking
+
+    assert.strictEqual(received, expected)
+
+    Expected value to strictly be equal to:
+      200
+    Received:
+      404
+
+    Message:
+      HTTP status 404 !== 200
+
+      at Expect._validateStatus 
+(node_modules/pactum/src/models/expect.js:106:14)
+
+  ÔùÅ Booking Lifecycle - Pactum ÔÇ║ should update booking with token
+
+    assert.strictEqual(received, expected)
+
+    Expected value to strictly be equal to:
+      200
+    Received:
+      405
+
+    Message:
+      HTTP status 405 !== 200
+
+      at Expect._validateStatus 
+(node_modules/pactum/src/models/expect.js:106:14)
+
+  ÔùÅ Booking Lifecycle - Pactum ÔÇ║ should delete booking and validate
+
+    assert.strictEqual(received, expected)
+
+    Expected value to strictly be equal to:
+      201
+    Received:
+      405
+
+    Message:
+      HTTP status 405 !== 201
+
+      at Expect._validateStatus 
+(node_modules/pactum/src/models/expect.js:106:14)
+
+[[33mW[39m]   console.warn
+    Request
+
+      at node_modules/pactum/src/adapters/logger.js:21:24
+          at Array.forEach (<anonymous>)
+
+  console.warn
+    {
+      "url": "https://dnd-combat-api-7f3660dcecb1.herokuapp.com/api/monsters/names/1",
+      "method": "GET",
+      "path": "/api/monsters/names/1",
+      "timeout": 30000
+    }
+
+      at node_modules/pactum/src/adapters/logger.js:21:24
+          at Array.forEach (<anonymous>)
+
+[[33mW[39m]   console.warn
+    Response
+
+      at node_modules/pactum/src/adapters/logger.js:21:24
+          at Array.forEach (<anonymous>)
+
+  console.warn
+    {
+      "statusCode": 500,
+      "headers": {
+        "content-type": "application/json",
+        "date": "Mon, 13 Apr 2026 21:15:49 GMT",
+        "nel": "{\"report_to\":\"heroku-nel\",\"response_headers\":[\"Via\"],\"max_age\":3600,\"success_fraction\":0.01,\"failure_fraction\":0.1}",
+        "report-to": "{\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=gaNXF3SvhbVuncnQNStBuS1sVrBSSkQV9VNnoDmYh40%3D\\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\\u0026ts=1776114944\"}],\"max_age\":3600}",
+        "reporting-endpoints": "heroku-nel=\"https://nel.heroku.com/reports?s=gaNXF3SvhbVuncnQNStBuS1sVrBSSkQV9VNnoDmYh40%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1776114944\"",
+        "server": "Heroku",
+        "via": "1.1 heroku-router",
+        "content-length": "121"
+      },
+      "body": {
+        "timestamp": "2026-04-13T21:15:49.174+00:00",
+        "status": 500,
+        "error": "Internal Server Error",
+        "path": "/api/monsters/names/1"
+      }
+    }
+
+      at node_modules/pactum/src/adapters/logger.js:21:24
+          at Array.forEach (<anonymous>)
+
+FAIL test/dnd_combat_api.spec.ts (12.746 s)
+  D&D Combat API - Full Coverage
+    CHARACTERS
+      ÔêÜ GET example character (692 ms)
+      ÔêÜ POST valid character check (144 ms)
+      ÔêÜ POST invalid character check (145 ms)
+      ÔêÜ DELETE invalid character (143 ms)
+    MONSTERS
+      ├ù GET monster names page 1 (5202 ms)
+      ÔêÜ GET monster names invalid page (1836 ms)
+      ÔêÜ GET monster names page zero (199 ms)
+      ÔêÜ GET monster by name (goblin) (216 ms)
+      ÔêÜ GET invalid monster (196 ms)
+    BATTLE
+      ÔêÜ POST battle vs goblin (204 ms)
+      ÔêÜ POST battle with invalid character (145 ms)
+      ÔêÜ POST battle with invalid monster (195 ms)
+      ÔêÜ POST battle with weak character (239 ms)
+      ÔêÜ POST battle with very strong character (197 ms)
+
+  ÔùÅ D&D Combat API - Full Coverage ÔÇ║ MONSTERS ÔÇ║ GET monster names page 1
+
+    assert.strictEqual(received, expected)
+
+    Expected value to strictly be equal to:
+      200
+    Received:
+      500
+
+    Message:
+      HTTP status 500 !== 200
+
+      at Expect._validateStatus 
+(node_modules/pactum/src/models/expect.js:106:14)
+
+­ƒôª report is created on: C:\Users\Katleen M. Martins\OneDrive\├ürea de Trabalho\PROVA TESTES AUTOMACAO\integration-test-jest\output\report.html
+Test Suites: 2 failed, 1 passed, 3 total
+Tests:       5 failed, 21 passed, 26 total
+Snapshots:   0 total
+Time:        14.092 s
+Ran all test suites.

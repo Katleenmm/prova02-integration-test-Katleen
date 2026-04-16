@@ -1,0 +1,290 @@
+﻿[[33mW[39m]   console.warn
+    Request
+
+      at node_modules/pactum/src/adapters/logger.js:21:24
+          at Array.forEach (<anonymous>)
+
+  console.warn
+    {
+      "url": "https://restful-booker.herokuapp.com/booking",
+      "method": "POST",
+      "path": "/booking",
+      "body": {
+        "firstname": "Joao",
+        "lastname": "Silva",
+        "totalprice": 100,
+        "depositpaid": true,
+        "bookingdates": {
+          "checkin": "2024-01-01",
+          "checkout": "2024-01-05"
+        },
+        "additionalneeds": "Breakfast"
+      },
+      "timeout": 3000
+    }
+
+      at node_modules/pactum/src/adapters/logger.js:21:24
+          at Array.forEach (<anonymous>)
+
+[[33mW[39m]   console.warn
+    Response
+
+      at node_modules/pactum/src/adapters/logger.js:21:24
+          at Array.forEach (<anonymous>)
+
+  console.warn
+    {
+      "statusCode": 418,
+      "headers": {
+        "content-length": "12",
+        "content-type": "text/plain; charset=utf-8",
+        "date": "Mon, 13 Apr 2026 21:16:38 GMT",
+        "etag": "W/\"c-2UDTmC4hdG5PUA+z8oDkrgejuV8\"",
+        "nel": "{\"report_to\":\"heroku-nel\",\"response_headers\":[\"Via\"],\"max_age\":3600,\"success_fraction\":0.01,\"failure_fraction\":0.1}",
+        "report-to": "{\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=cOCHR93IkbC%2FgiHo5lZRaLuFAWuUCJQhkidPhTUamVg%3D\\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\\u0026ts=1776114998\"}],\"max_age\":3600}",
+        "reporting-endpoints": "heroku-nel=\"https://nel.heroku.com/reports?s=cOCHR93IkbC%2FgiHo5lZRaLuFAWuUCJQhkidPhTUamVg%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1776114998\"",
+        "server": "Heroku",
+        "via": "1.1 heroku-router",
+        "x-powered-by": "Express"
+      },
+      "body": "I'm a Teapot"
+    }
+
+      at node_modules/pactum/src/adapters/logger.js:21:24
+          at Array.forEach (<anonymous>)
+
+[[33mW[39m]   console.warn
+    Request
+
+      at node_modules/pactum/src/adapters/logger.js:21:24
+          at Array.forEach (<anonymous>)
+
+  console.warn
+    {
+      "url": "https://restful-booker.herokuapp.com/booking/undefined",
+      "method": "GET",
+      "path": "/booking/undefined",
+      "timeout": 3000
+    }
+
+      at node_modules/pactum/src/adapters/logger.js:21:24
+          at Array.forEach (<anonymous>)
+
+[[33mW[39m]   console.warn
+    Response
+
+      at node_modules/pactum/src/adapters/logger.js:21:24
+          at Array.forEach (<anonymous>)
+
+  console.warn
+    {
+      "statusCode": 404,
+      "headers": {
+        "content-length": "9",
+        "content-type": "text/plain; charset=utf-8",
+        "date": "Mon, 13 Apr 2026 21:16:38 GMT",
+        "etag": "W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"",
+        "nel": "{\"report_to\":\"heroku-nel\",\"response_headers\":[\"Via\"],\"max_age\":3600,\"success_fraction\":0.01,\"failure_fraction\":0.1}",
+        "report-to": "{\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=cOCHR93IkbC%2FgiHo5lZRaLuFAWuUCJQhkidPhTUamVg%3D\\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\\u0026ts=1776114998\"}],\"max_age\":3600}",
+        "reporting-endpoints": "heroku-nel=\"https://nel.heroku.com/reports?s=cOCHR93IkbC%2FgiHo5lZRaLuFAWuUCJQhkidPhTUamVg%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1776114998\"",
+        "server": "Heroku",
+        "via": "1.1 heroku-router",
+        "x-powered-by": "Express"
+      },
+      "body": "Not Found"
+    }
+
+      at node_modules/pactum/src/adapters/logger.js:21:24
+          at Array.forEach (<anonymous>)
+
+[[33mW[39m]   console.warn
+    Request
+
+      at node_modules/pactum/src/adapters/logger.js:21:24
+          at Array.forEach (<anonymous>)
+
+  console.warn
+    {
+      "url": "https://restful-booker.herokuapp.com/booking/undefined",
+      "method": "PUT",
+      "headers": {
+        "Cookie": "token=710983762585965"
+      },
+      "path": "/booking/undefined",
+      "body": {
+        "firstname": "Maria",
+        "lastname": "Silva",
+        "totalprice": 200,
+        "depositpaid": false,
+        "bookingdates": {
+          "checkin": "2024-02-01",
+          "checkout": "2024-02-05"
+        },
+        "additionalneeds": "Lunch"
+      },
+      "timeout": 3000
+    }
+
+      at node_modules/pactum/src/adapters/logger.js:21:24
+          at Array.forEach (<anonymous>)
+
+[[33mW[39m]   console.warn
+    Response
+
+      at node_modules/pactum/src/adapters/logger.js:21:24
+          at Array.forEach (<anonymous>)
+
+  console.warn
+    {
+      "statusCode": 405,
+      "headers": {
+        "content-length": "18",
+        "content-type": "text/plain; charset=utf-8",
+        "date": "Mon, 13 Apr 2026 21:16:39 GMT",
+        "etag": "W/\"12-UGJMK66P4abaBlq0vKHJaCKuGCA\"",
+        "nel": "{\"report_to\":\"heroku-nel\",\"response_headers\":[\"Via\"],\"max_age\":3600,\"success_fraction\":0.01,\"failure_fraction\":0.1}",
+        "report-to": "{\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=ZinnTse6rS5hiAOO8Vk8UwEwlaV48xS%2FgMZmXRQdTow%3D\\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\\u0026ts=1776114999\"}],\"max_age\":3600}",
+        "reporting-endpoints": "heroku-nel=\"https://nel.heroku.com/reports?s=ZinnTse6rS5hiAOO8Vk8UwEwlaV48xS%2FgMZmXRQdTow%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1776114999\"",
+        "server": "Heroku",
+        "via": "1.1 heroku-router",
+        "x-powered-by": "Express"
+      },
+      "body": "Method Not Allowed"
+    }
+
+      at node_modules/pactum/src/adapters/logger.js:21:24
+          at Array.forEach (<anonymous>)
+
+[[33mW[39m]   console.warn
+    Request
+
+      at node_modules/pactum/src/adapters/logger.js:21:24
+          at Array.forEach (<anonymous>)
+
+  console.warn
+    {
+      "url": "https://restful-booker.herokuapp.com/booking/undefined",
+      "method": "DELETE",
+      "headers": {
+        "Cookie": "token=710983762585965"
+      },
+      "path": "/booking/undefined",
+      "timeout": 3000
+    }
+
+      at node_modules/pactum/src/adapters/logger.js:21:24
+          at Array.forEach (<anonymous>)
+
+[[33mW[39m]   console.warn
+    Response
+
+      at node_modules/pactum/src/adapters/logger.js:21:24
+          at Array.forEach (<anonymous>)
+
+  console.warn
+    {
+      "statusCode": 405,
+      "headers": {
+        "content-length": "18",
+        "content-type": "text/plain; charset=utf-8",
+        "date": "Mon, 13 Apr 2026 21:16:39 GMT",
+        "etag": "W/\"12-UGJMK66P4abaBlq0vKHJaCKuGCA\"",
+        "nel": "{\"report_to\":\"heroku-nel\",\"response_headers\":[\"Via\"],\"max_age\":3600,\"success_fraction\":0.01,\"failure_fraction\":0.1}",
+        "report-to": "{\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=ZinnTse6rS5hiAOO8Vk8UwEwlaV48xS%2FgMZmXRQdTow%3D\\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\\u0026ts=1776114999\"}],\"max_age\":3600}",
+        "reporting-endpoints": "heroku-nel=\"https://nel.heroku.com/reports?s=ZinnTse6rS5hiAOO8Vk8UwEwlaV48xS%2FgMZmXRQdTow%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1776114999\"",
+        "server": "Heroku",
+        "via": "1.1 heroku-router",
+        "x-powered-by": "Express"
+      },
+      "body": "Method Not Allowed"
+    }
+
+      at node_modules/pactum/src/adapters/logger.js:21:24
+          at Array.forEach (<anonymous>)
+
+npx : FAIL test/rest_booking.spec.ts
+No linha:1 caractere:106
++ ... test-jest"; npx jest test/rest_booking.spec.ts --config ./jest.config ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (FAIL test/rest_booking.spec.ts:St 
+   ring) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  Booking Lifecycle - Pactum
+    ÔêÜ should list bookings (1163 ms)
+    ÔêÜ should return 404 for invalid booking (225 ms)
+    ÔêÜ should fail to create booking with invalid data (151 ms)
+    ├ù should create booking (175 ms)
+    ├ù should validate created booking (148 ms)
+    ÔêÜ should fail auth with wrong credentials (273 ms)
+    ÔêÜ should authenticate (140 ms)
+    ÔêÜ should fail update without token (236 ms)
+    ├ù should update booking with token (179 ms)
+    ├ù should delete booking and validate (146 ms)
+
+  ÔùÅ Booking Lifecycle - Pactum ÔÇ║ should create booking
+
+    assert.strictEqual(received, expected)
+
+    Expected value to strictly be equal to:
+      200
+    Received:
+      418
+
+    Message:
+      HTTP status 418 !== 200
+
+      at Expect._validateStatus 
+(node_modules/pactum/src/models/expect.js:106:14)
+
+  ÔùÅ Booking Lifecycle - Pactum ÔÇ║ should validate created booking
+
+    assert.strictEqual(received, expected)
+
+    Expected value to strictly be equal to:
+      200
+    Received:
+      404
+
+    Message:
+      HTTP status 404 !== 200
+
+      at Expect._validateStatus 
+(node_modules/pactum/src/models/expect.js:106:14)
+
+  ÔùÅ Booking Lifecycle - Pactum ÔÇ║ should update booking with token
+
+    assert.strictEqual(received, expected)
+
+    Expected value to strictly be equal to:
+      200
+    Received:
+      405
+
+    Message:
+      HTTP status 405 !== 200
+
+      at Expect._validateStatus 
+(node_modules/pactum/src/models/expect.js:106:14)
+
+  ÔùÅ Booking Lifecycle - Pactum ÔÇ║ should delete booking and validate
+
+    assert.strictEqual(received, expected)
+
+    Expected value to strictly be equal to:
+      201
+    Received:
+      405
+
+    Message:
+      HTTP status 405 !== 201
+
+      at Expect._validateStatus 
+(node_modules/pactum/src/models/expect.js:106:14)
+
+­ƒôª report is created on: C:\Users\Katleen M. Martins\OneDrive\├ürea de Trabalho\PROVA TESTES AUTOMACAO\integration-test-jest\output\report.html
+Test Suites: 1 failed, 1 total
+Tests:       4 failed, 6 passed, 10 total
+Snapshots:   0 total
+Time:        5.224 s
+Ran all test suites matching test/rest_booking.spec.ts.
